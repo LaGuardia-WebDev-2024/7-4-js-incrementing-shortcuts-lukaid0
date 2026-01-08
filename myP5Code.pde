@@ -32,6 +32,17 @@ draw = function(){
   ellipse(rightX, 100, 126, 97);
   ellipse(rightX+62, 100, 70, 60);
   ellipse(rightX-62, 100, 70, 60);
+
+  if(mousePressed){
+    rightX=230;
+    leftX=200;
+   sunRadius=100
+    
+  }
+  sunRadius=sunRadius+.5
+  rightX=rightX+1
+  leftX=leftX-1
+  
   
 }
 
@@ -42,6 +53,7 @@ draw = function(){
 
 //🟡Mouse Pressed Procedue - Runs When Mouse is Pressed on Canvas
 void mousePressed(){
+  
 
   
 }
